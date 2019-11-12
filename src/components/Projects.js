@@ -1,9 +1,9 @@
 import React from 'react'
 import {CSSTransition} from 'react-transition-group'
-
+import Particles from 'react-particles-js'
 function Projects() {
     return (
-        <CSSTransition transitionName="section" transitionEnterTimeOut={300} transitionLeaveTimeout={300}>
+        //<CSSTransition transitionName="section" transitionEnterTimeOut={300} transitionLeaveTimeout={300}>
         <div className="projects-container">
             <div className="projects">
                 <img src="https://res.cloudinary.com/raal9410/image/upload/v1571347278/portfolio-images/pizzaetersimg_tn5zkd.png" alt="NinjaTurtles"/>
@@ -50,8 +50,9 @@ function Projects() {
                     </ul>
                 </div>
             </div>
+        
         </div>
-        </CSSTransition>
+       // </CSSTransition>
     )
 }
 
